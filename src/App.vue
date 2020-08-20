@@ -4,6 +4,8 @@
     <ul>
       <li><router-link :to="{name: 'Home'}">Inicio</router-link></li>
       <li><router-link :to="{name: 'Search'}">Búsqueda</router-link></li>
+      <li><router-link :to="{name: 'Sales'}">Ventas</router-link></li>
+      <li><router-link :to="{name: 'Total'}">Total</router-link></li>
     </ul>
     <transition name="vista">
       <router-view></router-view>
